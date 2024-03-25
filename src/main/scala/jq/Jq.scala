@@ -18,5 +18,4 @@ trait Jq[R]:
     export B.*
 
 object Jq: 
-
     def apply[R](using J: Jq[R]): Jq[R] = J
